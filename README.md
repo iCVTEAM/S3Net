@@ -2,31 +2,25 @@
 
 # Dependencies
 
+pip install requirement.txt
+
+
+# Training 
+
+For example: Standford Cars dataset (1-shot)
+
+python mytrain_cars.py  --nExemplars 1 --gpu-devices 0
+
+
+# Testing 
+
+For example: Standford Cars dataset (1-shot)
+
+python test_car.py --nExemplars  --gpu-devices 0  --resume ./result/car/CAM/5-shot-seed5-conv4_myspp_globalcos_few_loss/best_model.pth.tar
+
+
 
 PyTorch code for the ICME 2021 paper **Selective, Structural, Subtle: Trilinear Spatial-Awareness for Few-Shot Fine-Grained Visual Recognition**.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @inproceedings{wu2021selective,
