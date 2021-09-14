@@ -1,6 +1,9 @@
-# 2021-ICME
-
 # S3Net
+
+## Introduction
+
+PyTorch code for the ICME 2021 paper [Selective, Structural, Subtle: Trilinear Spatial-Awareness for Few-Shot Fine-Grained Visual Recognition](http://cvteam.net/papers/2021_ICME_Selective,%20Structural,%20Subtle%20Trilinear%20Spatial-Awareness%20for%20Few-Shot%20Fine-Grained%20Visual%20Recognition.pdf).
+
 
 ## Dependencies
 
@@ -15,10 +18,6 @@
 
 - For example: Standford Cars dataset (1-shot)
 - python test_car.py --nExemplars --gpu-devices 0 --resume ./result/car/CAM/5-shot-seed1-conv4_myspp_globalcos_few_loss/best_model.pth.tar
-
-
-
-PyTorch code for the ICME 2021 paper [Selective, Structural, Subtle: Trilinear Spatial-Awareness for Few-Shot Fine-Grained Visual Recognition](http://cvteam.net/papers/2021_ICME_Selective,%20Structural,%20Subtle%20Trilinear%20Spatial-Awareness%20for%20Few-Shot%20Fine-Grained%20Visual%20Recognition.pdf).
 
 
 ## Citation
