@@ -125,7 +125,6 @@ def test(model, testloader, use_gpu):
             cls_scores = model(images_train, images_test, labels_train_1hot, labels_test_1hot)
             cls_scores = cls_scores.view(batch_size * num_test_examples, -1)
             labels_test = labels_test.view(batch_size * num_test_examples)
-            #print(cls_scores, cls_scores.detach())
             _, preds = torch.max(cls_scores.detach().cpu(), 1)
             acc = (torch.sum(preds == labels_test.detach().cpu()).float()) / labels_test.size(0)
             accs.update(acc.item(), labels_test.size(0))
