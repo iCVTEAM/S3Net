@@ -17,7 +17,8 @@ PyTorch code for the ICME 2021 paper [Selective, Structural, Subtle: Trilinear S
 ## Testing
 
 - For example: Standford Cars dataset (1-shot)
-- python test_car.py --nExemplars --gpu-devices 0 --resume ./result/car/CAM/5-shot-seed1-conv4_myspp_globalcos_few_loss/best_model.pth.tar
+
+- python test_car.py --nExemplars --gpu-devices 0 --resume ./result/car/5-shot-seed1-conv4_myspp_globalcos_few_loss/best_model.pth.tar
 
 
 ## Citation

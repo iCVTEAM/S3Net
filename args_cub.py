@@ -49,8 +49,10 @@ def argument_parser():
     # ************************************************************
     # Miscs
     # ************************************************************
-    parser.add_argument('--save-dir', type=str, default='./result/cub_2010/CAM/5-shot-seed1-conv4_myspp_globalcos_few_loss/')
-    parser.add_argument('--resume', type=str, default='./result/cub_2010/CAM/5-shot-seed1_conv4_myspp_globalcos_few_loss/best_model.pth.tar', metavar='PATH')
+
+    parser.add_argument('--save-dir', type=str, default='./result/cub_2010/5-shot-seed1-conv4_myspp_globalcos_few_loss/')
+    parser.add_argument('--resume', type=str, default='./result/cub_2010/5-shot-seed1_conv4_myspp_globalcos_few_loss/best_model.pth.tar', metavar='PATH')
+
     #parser.add_argument('--resume', type=str, default='', metavar='PATH')
     parser.add_argument('--gpu-devices', default='0', type=str)
 

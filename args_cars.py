@@ -46,11 +46,9 @@ def argument_parser():
     parser.add_argument('--num_classes', type=int, default=130)
     parser.add_argument('--temperature', type=int, default=0.6)
 
-    # ************************************************************
-    # Miscs
-    # ************************************************************
-    parser.add_argument('--save-dir', type=str, default='./result/car/CAM/5-shot-seed5-conv4_myspp_globalcos_few_loss/')
-    parser.add_argument('--resume', type=str, default='./result/car/CAM/5-shot-seed5_conv4_myspp_globalcos_few_loss/best_model.pth.tar', metavar='PATH')
+    parser.add_argument('--save-dir', type=str, default='./result/car/5-shot-seed5-conv4_myspp_globalcos_few_loss/')
+    parser.add_argument('--resume', type=str, default='./result/car/5-shot-seed5_conv4_myspp_globalcos_few_loss/best_model.pth.tar', metavar='PATH')
+
     #parser.add_argument('--resume', type=str, default='', metavar='PATH')
     parser.add_argument('--gpu-devices', default='0', type=str)
 
