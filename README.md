@@ -7,7 +7,7 @@ PyTorch code for the ICME 2021 paper [Selective, Structural, Subtle: Trilinear S
 
 ## Dependencies
 
-- conda env create -f requirement.txt
+- conda env create -f pytorch.yml
 
 ## Training
 
