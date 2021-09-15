@@ -4,7 +4,7 @@
 
 PyTorch code for the ICME 2021 paper [Selective, Structural, Subtle: Trilinear Spatial-Awareness for Few-Shot Fine-Grained Visual Recognition](http://cvteam.net/papers/2021_ICME_Selective,%20Structural,%20Subtle%20Trilinear%20Spatial-Awareness%20for%20Few-Shot%20Fine-Grained%20Visual%20Recognition.pdf).
 
-ffkasfjkasf  aaj   
+fkjafj akfj affkasfjkasf  aaj   
 ## Dependencies
 
 - conda env create -f pytorch.yml
