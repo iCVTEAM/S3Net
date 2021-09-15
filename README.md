@@ -24,6 +24,11 @@ PyTorch code for the ICME 2021 paper [Selective, Structural, Subtle: Trilinear S
 ## Citation
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c6530a797a42ced9467023c0492b5830c1c33695
 ```html
 @inproceedings{wu2021selective, 
 title={Selective, Structural, Subtle: Trilinear Spatial-Awareness for Few-Shot Fine-Grained Visual Recognition}, 
